@@ -264,3 +264,35 @@ ul.list-items{
     width: 750px;
     height: 420px;
 }
+/* 6.Join section style */
+.newsletter-section {
+    background-image: url("assets/news-letter-bg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 80px 5%;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.newsletter-content h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: var(--white-color);
+}
+
+.newsletter-form input {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.newsletter-form button {
+    padding: 15px 30px;
+    background: var(--secondary-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
