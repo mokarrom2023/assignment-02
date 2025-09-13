@@ -296,3 +296,128 @@ ul.list-items{
     cursor: pointer;
     margin-left: 10px;
 }
+/* 7.Footer Section style*/
+.footer {
+    padding: 50px 5% 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #444;
+}
+
+.footer-logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.footer-logo p {
+    font-size: 0.9em;
+    color: var(--light-text-color);
+    margin-top: 15px;
+}
+
+
+.footer ul {
+    list-style: none;
+}
+
+
+.social-links img {
+    margin-right: 15px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+/* --- Mobile Responsiveness --- */
+@media screen and (max-width:576px) {
+   
+    .header {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .nav-item{
+        visibility: hidden;
+    }
+    .hero-section {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .plants{
+        margin: 50px auto;
+        margin-left: 20px;
+    }
+    .hero-content {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 2.5em;
+    }
+    .section-title{
+        text-align: center;
+    }
+
+    .plants-grid {
+        margin-left: 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .plant-card button{
+        width: 170px;
+    
+    }
+   
+    .flower-plants-section{
+        width: 360px;
+        height: 396px;
+        display: flex;
+        flex-direction: column;
+    }
+    .plants{
+        width: 370px;
+    }
+    .plants-lover-section{
+        margin-bottom: 200px;
+        margin-left: 0;
+    }
+    .trusted-badge{
+        visibility: hidden;
+    }
+    .latest-deal-section{
+        margin-top: 800px;
+        margin-left: 0;
+    }
+    .cards-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .newsletter-form input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-form  {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        margin: 0 auto 10px;
+    }
+}
