@@ -142,3 +142,48 @@ a {
 .plant-card button:hover {
     background: #c0392b;
 }
+/* 4.flower and plants style  */
+.plants-lover-section{
+    margin-left: 200px;
+}
+
+.flower-plants-section{
+    display: flex;
+    align-items: center;  
+    gap: 30px;
+   
+}
+
+.plants{
+    width: 600px;
+    height: 520px;
+    text-align: left;
+    align-items: center;
+    margin-top: 38px;
+    margin-left: 100px;
+}
+.trusted-badge{
+    width: 280px;
+    height: 280px;
+    margin-bottom: -150px;
+    margin-left: 350px;
+    position: relative;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.list-items{
+    font-size: 22px;
+    gap: 10px;
+}
+
+ul.list-items{
+    font-family: serif;
+    color: gray;
+    gap: 10px;
+    position: relative;
+
+}
