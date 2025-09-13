@@ -239,7 +239,7 @@ ul.list-items{
 
 
 .card-1{
-    background-image: url("assets/deal-bloom.png");
+    background-image: url("../assets/deal-bloom.png");
 
     background-color: rgba(200, 200, 200, 1);
     color: white;
@@ -250,14 +250,14 @@ ul.list-items{
 
 }
 .card-2{
-    background-image: url("assets/deal-ana.png");
+    background-image: url("../assets/deal-ana.png");
      background-color: rgba(200, 200, 200, 1);
     color: white;
     width: 367px;
     height: 200px;
 }
 .card-3{
-    background-image: url("assets/deal-zabo.png");
+    background-image: url("../assets/deal-zabo.png");
     background-color: rgba(200, 200, 200, 1);
     color: white;
     max-width: 100%;
@@ -266,7 +266,7 @@ ul.list-items{
 }
 /* 6.Join section style */
 .newsletter-section {
-    background-image: url("assets/news-letter-bg.png");
+    background-image: url("../assets/news-letter-bg.png");
     background-size: cover;
     background-position: center;
     padding: 80px 5%;
