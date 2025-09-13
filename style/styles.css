@@ -1,0 +1,51 @@
+:root {
+    --primary-color: #333;
+    --secondary-color: #e74c3c;
+    --background-color: #f4f4f4;
+    --text-color: gray;
+    --light-text-color: #777;
+    --white-color: #fff;
+    --card-bg: #fff;
+}
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:  serif;
+    line-height: 1.6;
+    background-color: #fdfafa;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+ /* 1.Navbar section style */
+.logo{
+   width: 135px;
+   height: 82px;
+}
+
+.header{
+    display: flex;
+    justify-content:space-between ;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    list-style-type: none;
+}
+.nav-items{
+    gap: 20px;
+}
