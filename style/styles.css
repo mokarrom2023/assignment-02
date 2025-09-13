@@ -49,3 +49,37 @@ a {
 .nav-items{
     gap: 20px;
 }
+/* 2.Banner section style */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 5%;
+    background: #fdfafa;
+}
+.hero-content {
+    flex: 1;
+    max-width: 500px;
+    margin-right: 50px;
+}
+.hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.color-01{
+    color: #ff6347;
+}
+.color-02{
+    color: gray;
+}
+.hero-content p {
+    color: var(--light-text-color);
+}
+.hero-image {
+    flex: 1;
+    text-align: right;
+}
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
